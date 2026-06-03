@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Local artifacts
+artifacts/*
+!artifacts/.gitkeep
+
+# Environment files
+.env
+.env.*
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Docker
+docker-data/
