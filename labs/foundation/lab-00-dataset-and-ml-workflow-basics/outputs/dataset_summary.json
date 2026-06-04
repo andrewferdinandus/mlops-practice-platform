@@ -1,0 +1,20 @@
+{
+  "dataset_name": "scikit-learn diabetes sample dataset",
+  "purpose": "learning basic ML workflow concepts",
+  "row_count": 442,
+  "feature_count": 10,
+  "target_column": "target",
+  "feature_columns": [
+    "age",
+    "sex",
+    "bmi",
+    "bp",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+  ],
+  "important_note": "This dataset is used only for learning. The goal of this lab is to understand the ML workflow, not to build a medical production model."
+}

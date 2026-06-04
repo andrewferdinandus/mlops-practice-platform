@@ -1,0 +1,13 @@
+{
+  "model_type": "Ridge Regression",
+  "alpha": 1.0,
+  "train_rows": 353,
+  "test_rows": 89,
+  "feature_count": 10,
+  "metrics": {
+    "rmse": 55.47446204180109,
+    "mae": 46.138857666974516,
+    "r2": 0.41915292635986545
+  },
+  "note": "This is a basic model training example. The next lab will train multiple runs and track them using MLflow."
+}
