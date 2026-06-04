@@ -1,0 +1,23 @@
+artifact_path: file:///Users/andrewferdinandus/projcts/mlops-practice-platform/labs/foundation/lab-01-local-mlflow-tracking/artifacts/models/m-babf0943f086477d86174c8333b3630c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-babf0943f086477d86174c8333b3630c
+model_size_bytes: 693
+model_uuid: m-babf0943f086477d86174c8333b3630c
+prompts: null
+run_id: c869691618f74ff6bb5a30efaa4e91d5
+utc_time_created: '2026-06-04 09:26:15.420891'
