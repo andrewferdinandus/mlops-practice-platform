@@ -5,18 +5,31 @@ __pycache__/
 venv/
 env/
 *.egg-info/
+.pytest_cache/
+
+# Local environment files
+.env
+.env.*
 
 # MLflow
 mlruns/
 mlartifacts/
+mlflow.db
+**/mlruns/
+**/mlartifacts/
+**/mlflow.db
 
-# Local artifacts
+# Lab generated outputs
+outputs/*
+!outputs/.gitkeep
+**/outputs/*
+!**/outputs/.gitkeep
+
+# Lab generated artifacts
 artifacts/*
 !artifacts/.gitkeep
-
-# Environment files
-.env
-.env.*
+**/artifacts/*
+!**/artifacts/.gitkeep
 
 # OS/editor
 .DS_Store
@@ -26,5 +39,5 @@ artifacts/*
 # Logs
 *.log
 
-# Docker
+# Docker/local data
 docker-data/
